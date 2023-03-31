@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.twitt-post {
+  border: 1px solid #e6ecf0;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.profile-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profile-pic {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+}
+
+.userinfo-wrapper {
+  margin-left: 10px;
+  flex-grow: 1;
+}
+
+.user-info{
+  display: flex;
+  justify-content: space-between;
+}
+
+.username {
+  font-size: 16px;
+  font-weight: bold;
+  color: #14171a;
+}
+
+.dot-button{
+  cursor: pointer;
+  border:none;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 15px;
+}
+
+.dot-button:hover{
+  background-color: #CBE7F8;
+  color: #1da1f2;
+}
+
+ul{
+  list-style: none;
+  cursor: pointer;
+}
+
+.userlogin {
+  font-size: 14px;
+  font-weight: normal;
+  color: #657786;
+}
+
+.post-content {
+  margin-bottom: 10px;
+}
+
+.post-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1c2938;
+}
+
+.post-img {
+  border-radius: 16px;
+  margin-top: 10px;
+}
+
+.post-footer {
+  border-top: 1px solid #e6ecf0;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.action-buttons button {
+  background-color: transparent;
+  border: none;
+  color: #657786;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 10px;
+  border-radius: 50%;
+  padding: 10px 15px;
+}
+
+.action-buttons button:hover {
+  cursor: pointer;
+  color: #1da1f2;
+  background-color:#CBE7F8 
+}
+
+.comment {
+  margin-top: 10px;
+  border-radius: 8px;
+  background-color: #f5f8fa;
+  padding: 10px;
+  margin:10px;
+  gap:10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-name {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.comment-email {
+  font-size: 12px;
+  font-weight: normal;
+  color: #657786;
+}
+
+.comment-body {
+  font-size: 14px;
+  font-weight: normal;
+  color: #1c2938;
+}
+
+
+
